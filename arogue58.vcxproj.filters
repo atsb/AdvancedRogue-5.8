@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{60c26918-1e76-4ee5-98db-c8483ec51aaf}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c5bedda9-20f1-493c-924c-0911a782a121}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{d9210e31-9cb9-4a14-8467-8fe403e5113a}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="chase.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="command.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="daemon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="daemons.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="encumb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fight.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="maze.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mdport.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="monsters.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="move.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="new_level.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="options.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="outside.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="passages.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="potions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rings.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rogue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rooms.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="save.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scrolls.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="state.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sticks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="things.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wear.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wizard.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xcrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mach_dep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="network.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rogue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LICENSE.TXT" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="arogue58.doc" />
+    <None Include="arogue58.html" />
+  </ItemGroup>
+</Project>
